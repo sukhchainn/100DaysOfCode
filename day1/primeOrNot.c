@@ -17,14 +17,14 @@ int prime(int num)
     }
 
     int n = num/2;
-    for (int i=2; i<n; i++)
+    for (int i=3; i<n; i++)
     {
         if (num%i == 0)
             return 0;
         else
             return 1;
     }
-        
+    
 }
 
 int main()
