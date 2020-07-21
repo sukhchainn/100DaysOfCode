@@ -7,6 +7,7 @@ int fib_rec(int num) {
     sum += num;
     if (num != 0)
         fib_rec(--num);
+    // return sum;
 }
 
 // Fibonacci sequence through iteration
