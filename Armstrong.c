@@ -20,7 +20,7 @@ int armstrong(int num) {
         temp = temp/10;
     }
     // Is it an Armstrong number?
-    return num == temp ? 1 : 0;
+    return num == sum ? 1 : 0;
 }
 
 int main()
