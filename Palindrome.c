@@ -2,6 +2,7 @@
 #include <string.h>
 #include <conio.h>
 
+// Palindrome function
 int palindrome(const char* str) {
     int len = strlen(str), n;
 
