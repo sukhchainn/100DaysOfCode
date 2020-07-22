@@ -135,7 +135,7 @@ int main(){
 // function definition
 char* iToWord(unsigned long num)
 {
-    char* str = malloc(255);
+    char* str = malloc(20);
     strcpy(str, "");
 
     switch(num)
