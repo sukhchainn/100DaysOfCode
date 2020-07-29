@@ -15,9 +15,9 @@ Matrix M_create(int row, int col)
     M.row = row;
     M.col =col;
 
-    M.matrix = (int **) malloc(row*sizeof(int *));
+    M.matrix = (int **) calloc(row, sizeof(int *));
     for (int I=0; I<row;I++)
-        M.matrix[I] = (int *) malloc(col*sizeof(int));
+        M.matrix[I] = (int *) calloc(col, sizeof(int));
 
     return M;
 }
